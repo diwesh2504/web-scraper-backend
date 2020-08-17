@@ -62,7 +62,7 @@ app.get("/scrape-amazon",async function getData(req,res){
         }
         products.push(product_details);
         if(urls.indexOf(item)===urls.length-1)
-            res.send({message:"ADDED TO DB!"});
+            res.send(products);
         
     }))
     
