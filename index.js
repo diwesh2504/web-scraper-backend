@@ -79,6 +79,6 @@ app.get("/get-amazon", async(req,res)=>{
         console.log(err);
     }
 })
-app.listen(4040,()=>{
+app.listen(process.env.PORT || 4040,()=>{
     console.log("listening..");
 })
