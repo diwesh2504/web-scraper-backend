@@ -6,7 +6,7 @@ const bodyParser=require('body-parser');
 const request=require('request');
 const cheerio=require('cheerio');
 //const mongo_url="mongodb://localhost:27017";
-const mongourl="mongodb+srv://admin:<password>@cluster0.sln75.mongodb.net/web-scraper?retryWrites=true&w=majority";
+const mongourl="mongodb+srv://admin:admin123@cluster0.sln75.mongodb.net/web-scraper?retryWrites=true&w=majority";
 app.use(bodyParser());
 app.use(cors());
 const url1='https://www.amazon.in/JBL-C100SI-Ear-Headphones-Black/dp/B01DEWVZ2C/ref=sr_1_1?dchild=1&keywords=jbl&qid=1597655607&s=computers&sr=1-1';
